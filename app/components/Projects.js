@@ -5,13 +5,13 @@ const projectsData = [
     title: "Portfolio Website",
     description: "A Personal Portfolio built with Next.js, showcasing my projects and skills.",
     tech: ["Next.js", "Tailwind CSS", "Vercel"],
-    link: "https://your-portfolio-link.com",
+    link: "https://next-js-porfolio-website.vercel.app/",
   },
   {
     title: "Porfolio website",
     description: "A porfolio website built with HTML,Css and JavaScript.",
     tech: ["HTML", "Css", "JavaScript"],
-    link: "https://github.com/yourgithub/secure-login",
+    link: "https://boredcreator124.github.io/portfolio/",
   },
   {
     title: "It can be beaten",
