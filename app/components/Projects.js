@@ -38,7 +38,7 @@ const Projects = () => {
             <p className="text-gray-400 mt-2">{project.description}</p>
             <div className="mt-3">
               {project.tech.map((tech, i) => (
-                <span key={i} className="bg-pink-500 text-white px-2 py-1 rounded text-sm mr-2">
+                <span key={i} className="bg-red-500 text-white px-2 py-1 rounded text-sm mr-2">
                   {tech}
                 </span>
               ))}
@@ -47,7 +47,7 @@ const Projects = () => {
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="mt-4 inline-block text-pink-500 hover:underline"
+              className="mt-4 inline-block text-red-500 hover:underline"
             >
               View Project →
             </a>
